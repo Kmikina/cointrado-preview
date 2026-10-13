@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CoinTrado — Bitcoin, the transparent way (Demo)</title><link rel="icon" href="logo.svg">
+<style>
+:root{--bg:#0a0f0d;--card:#121a17;--em:#0d3b2c;--em2:#1f8a5f;--mint:#7fe0b4;--gold:#e8b44c;--tx:#eef3ef;--mu:#9aa9a2}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx);line-height:1.55}
+a{color:var(--gold)}.w{max-width:1080px;margin:auto;padding:0 20px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}.brand{display:flex;gap:10px;align-items:center;font-weight:800;font-size:22px;color:var(--tx);text-decoration:none}.brand b{color:var(--gold)}
+.btn{display:inline-block;background:linear-gradient(135deg,#f2c45a,#c8902c);color:#1a1405;padding:12px 22px;border-radius:999px;font-weight:700;text-decoration:none;border:0;cursor:pointer}.ghost{background:transparent;border:1px solid #2a3a33;color:var(--tx)}
+.demo{background:#3a2a07;color:var(--gold);font-size:12px;padding:3px 9px;border-radius:99px;font-weight:700}
+header{padding:60px 0 70px;background:radial-gradient(800px 400px at 80% 0,#0d3b2c,transparent)}h1{font-size:clamp(34px,6vw,60px);line-height:1.08;margin:.3em 0}h1 span{color:var(--gold)}.lead{color:var(--mu);font-size:19px;max-width:560px}
+section{padding:56px 0}h2{font-size:32px;margin:0 0 24px}.g{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.c{background:var(--card);border:1px solid #1d2a25;border-radius:18px;padding:22px}.c h3{margin:.2em 0;color:var(--mint)}.c p{color:var(--mu);margin:0}
+.n{width:36px;height:36px;border-radius:50%;background:var(--em);color:var(--gold);display:grid;place-items:center;font-weight:800}
+table{width:100%;border-collapse:collapse}td{padding:10px;border-bottom:1px solid #1d2a25}td:last-child{text-align:right;font-weight:700}
+details{background:var(--card);border-radius:14px;padding:16px;margin:10px 0}summary{font-weight:700;cursor:pointer}
+footer{color:var(--mu);font-size:14px;padding:40px 0;border-top:1px solid #1d2a25}.lang button{background:none;border:1px solid #2a3a33;color:var(--tx);border-radius:8px;padding:6px 10px;cursor:pointer}.lang .on{background:var(--em);border-color:var(--em2)}
+.phone{width:260px;height:520px;border-radius:38px;border:8px solid #1d2a25;overflow:hidden;margin:auto;box-shadow:0 30px 80px #0d3b2c88}.phone iframe{width:100%;height:100%;border:0}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center}@media(max-width:800px){.hero{grid-template-columns:1fr}}
+</style></head><body>
+<div class="w"><nav><a class="brand" href="#"><img src="logo.svg" width="36" alt="">Coin<b>Trado</b></a><div class="lang"><button data-l="en" class="on">EN</button> <button data-l="fr">FR</button> <a class="btn" href="app/" data-i="open">Open app</a></div></nav></div>
+<header><div class="w hero"><div><span class="demo" data-i="demo">DEMO PROTOTYPE — no real money</span><h1 data-i="h1">Bitcoin for Canadians, <span>with every fee on the table.</span></h1><p class="lead" data-i="lead">Buy, sell and send BTC with an all-in price shown before you confirm, the rate source named, and humans you can actually reach.</p><p><a class="btn" href="app/" data-i="cta">Try the demo app</a> <a class="btn ghost" href="#fees" data-i="seefees">See fees</a></p></div><div class="phone"><iframe src="app/" title="CoinTrado app preview"></iframe></div></div></header>
+<section id="how"><div class="w"><h2 data-i="how">How it works</h2><div class="g">
+<div class="c"><div class="n">1</div><h3 data-i="s1">Sign up</h3><p data-i="s1p">Email and phone, then a clear ID check — we explain why each step is required.</p></div>
+<div class="c"><div class="n">2</div><h3 data-i="s2">Fund</h3><p data-i="s2p">Interac e-Transfer, or visit a partner cash desk in person.</p></div>
+<div class="c"><div class="n">3</div><h3 data-i="s3">Buy, plan, send</h3><p data-i="s3p">See the full cost, lock your quote, set DCA plans and price alerts.</p></div></div></div></section>
+<section id="features"><div class="w"><h2 data-i="feat">Features</h2><div class="g">
+<div class="c"><h3>🧾 All-in quotes</h3><p>Spread, network fee and total in CAD before you tap confirm.</p></div>
+<div class="c"><h3>📈 DCA planner</h3><p>Weekly or monthly recurring buys with a projection of what you'll invest.</p></div>
+<div class="c"><h3>🔔 Price alerts</h3><p>Get notified above or below the levels you choose.</p></div>
+<div class="c"><h3>🪙 Multi-asset wallet</h3><p>BTC, ETH, SOL and USDC in one place.</p></div>
+<div class="c"><h3>🎯 CAD savings goals</h3><p>Name a goal, track progress, auto-save.</p></div>
+<div class="c"><h3>🏪 Cash desk</h3><p>Book an in-person visit to buy or sell with cash.</p></div></div></div></section>
+<section id="why"><div class="w"><h2 data-i="why">Why CoinTrado is different</h2><div class="g">
+<div class="c"><h3>No buried spread</h3><p>"Free" apps hide costs in the price. We show it as a line item.</p></div>
+<div class="c"><h3>Named rate source</h3><p>Every quote shows where the reference price came from and when.</p></div>
+<div class="c"><h3>Fair account reviews</h3><p>Plain-language review policy, a status tracker and an appeal path.</p></div>
+<div class="c"><h3>EN / FR + accessible</h3><p>Fully bilingual, high contrast, large tap targets, reduced-motion aware.</p></div></div></div></section>
+<section id="fees"><div class="w"><h2 data-i="fees">Fee transparency (example, demo values)</h2><div class="c"><table>
+<tr><td>Buy amount</td><td>$500.00 CAD</td></tr><tr><td>Reference rate (Demo rate source)</td><td>Demo rate</td></tr><tr><td>CoinTrado spread (shown, not hidden)</td><td>0.80% · $4.00</td></tr><tr><td>Network fee (on send only)</td><td>shown at send</td></tr><tr><td>Total you pay</td><td>$500.00 CAD</td></tr></table></div></div></section>
+<section id="security"><div class="w"><h2 data-i="sec">Security & compliance</h2><div class="g">
+<div class="c"><h3>Cold storage (planned)</h3><p>Majority of client assets held offline in the production design.</p></div>
+<div class="c"><h3>FINTRAC-aligned KYC</h3><p>Identity verification designed around Canadian MSB requirements. Registration not yet obtained — this is a prototype.</p></div>
+<div class="c"><h3>2FA & passkeys</h3><p>Biometric login, passkeys and withdrawal allow-lists.</p></div></div></div></section>
+<section id="faq"><div class="w"><h2>FAQ</h2>
+<details><summary>Is this real?</summary><p>No. CoinTrado is a demo prototype. No real money, rates or accounts.</p></details>
+<details><summary>What does it cost?</summary><p>A disclosed spread shown on every quote, plus network fees when you send on-chain — both shown before you confirm.</p></details>
+<details><summary>Can I use it in French?</summary><p>Yes — toggle EN/FR on the site and in app settings.</p></details>
+<details><summary>Why do you need my ID?</summary><p>Canadian anti-money-laundering rules require identity verification for crypto dealers. We tell you exactly what's collected and why.</p></details></div></section>
+<section><div class="w c" style="text-align:center"><h2 data-i="dl">Get the app</h2><p data-i="dlp">Open the demo on your phone and tap "Add to Home Screen" to install.</p><a class="btn" href="app/" data-i="cta">Try the demo app</a></div></section>
+<footer><div class="w">🍁 CoinTrado — demo prototype. Not a registered dealer. Not financial advice. © 2026</div></footer>
+<script>
+const FR={open:"Ouvrir l'app",demo:"PROTOTYPE DÉMO — aucun argent réel",h1:"Le bitcoin pour les Canadiens, <span>tous les frais sur la table.</span>",lead:"Achetez, vendez et envoyez du BTC avec un prix tout compris affiché avant de confirmer, la source du taux nommée, et une équipe joignable.",cta:"Essayer l'app démo",seefees:"Voir les frais",how:"Comment ça marche",s1:"Inscription",s1p:"Courriel et téléphone, puis une vérification d'identité claire.",s2:"Approvisionner",s2p:"Virement Interac, ou comptoir en personne.",s3:"Acheter, planifier, envoyer",s3p:"Voyez le coût total, verrouillez votre cotation, planifiez vos achats.",feat:"Fonctionnalités",why:"Pourquoi CoinTrado est différent",fees:"Transparence des frais (exemple démo)",sec:"Sécurité et conformité",dl:"Obtenir l'app",dlp:"Ouvrez la démo sur votre téléphone et touchez « Ajouter à l'écran d'accueil »."};
+const EN={};document.querySelectorAll('[data-i]').forEach(e=>EN[e.dataset.i]=e.innerHTML);
+document.querySelectorAll('[data-l]').forEach(b=>b.onclick=()=>{const d=b.dataset.l=='fr'?FR:EN;document.documentElement.lang=b.dataset.l;document.querySelectorAll('[data-i]').forEach(e=>{if(d[e.dataset.i])e.innerHTML=d[e.dataset.i]});document.querySelectorAll('[data-l]').forEach(x=>x.classList.toggle('on',x==b))});
+</script></body></html>
